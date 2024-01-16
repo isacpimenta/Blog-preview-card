@@ -109,3 +109,15 @@ footer {
   font-size: 16px; 
   color: rgb(0, 77, 221); 
 }
+
+@media screen and (max-width: 768px){
+  main {
+    max-width: 300px;
+    max-height: 460px;
+  }
+
+  #img {
+    max-width: 300px;
+
+  }
+}
