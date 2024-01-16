@@ -24,7 +24,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
+  max-width: 335px;
   border: 1px solid black;
   border-radius: 5%;
   box-shadow: 7px 9px 1px black;
@@ -118,6 +118,13 @@ footer {
 
   #img {
     max-width: 300px;
+  }
 
+  footer {
+    font-size: 12px;
+  }
+
+  footer a {
+    font-size: 12px;
   }
 }
