@@ -90,12 +90,22 @@ p {
   font-weight: bolder;
 }
 
-.attribution {
-  display: flex;
-
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  min-width: 100vw;
+  text-align: center;
 }
 
+
 .attribution a {
-  font-size: 16px; text-align: center; 
-  color: hsl(228, 45%, 44%); 
+  font-size: 16px; 
+  color: rgb(245, 208, 78); 
+}
+
+.attribution a:hover {
+  font-size: 16px; 
+  color: rgb(0, 77, 221); 
 }
